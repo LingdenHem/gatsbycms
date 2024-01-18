@@ -1,6 +1,7 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+require("dotenv").config();
 module.exports = {
   siteMetadata: {
     title: `My Gatsby Site`,
